@@ -1,0 +1,56 @@
+NumPy -->
+
+C/FORTRAN - homogenous arr
+
+creating numpy arr-- 12 types
+
+np.array(a, dtype = int)
+np.ones((2,3),dtype = int)
+np.zeros()
+np.full(3, fill_value = 7)  -- ORDER = 'C', ORDER ='F' , 3 times 7
+np.empty(2) --> any value
+
+more types
+
+np.arange(2,10, 4,dtype = int)  [Here 10 isn't inclusive] --> step value
+
+np.linspace(2,10) -- > 50 values by default [Here 10 is inclusive]
+np.linspace(2,10, 5) --> 5 values only  --> no of values
+
+
+ 
+np.identity(3) --> Identity matrix
+np.eye(3,4)
+
+np.random.rand(2,3) -- > 2,3 matrix, values 0 to 1 fixed
+np.random.randint(4,10, size = (2,3)) --> 4 to 9 values, matrix 2,3
+
+
+
+MATHEMATICAL OPRN
+a.argmin() --> index of min ele
+a.argmax()
+np.logical_or(a,b)
+np.logical_and(a,b)
+np.logical_not(a)  --> 0
+
+
+BOOLEAN INDEXING
+bool_arr = b >10
+Soln --> True False True
+new_arr = b[bool_arr]
+print(new_arr) --> 12 14 19  # Greater than 10
+
+Index --> np.where(b == 100) # gives the index --> tuple deta h
+
+
+
+BROADCASTING
+
+------------------------FINISH--------------------------------
+
+
+
+
+
+
